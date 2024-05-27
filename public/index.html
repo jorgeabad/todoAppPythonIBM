@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Gestión de Tareas</h1>
+        <form id="tarea-form" class="mb-3">
+            <div class="input-group">
+                <input type="text" id="tarea-input" class="form-control" placeholder="Nueva tarea">
+                <button type="submit" class="btn">Añadir</button>
+            </div>
+        </form>
+        <ul id="tarea-list" class="list-group">
+            <!-- Las tareas se añadirán aquí -->
+        </ul>
+        <div class="button-container">
+            <button class="btn btn-danger" id="eliminarTodas">Limpiar</button>
+            <button class="btn btn-warning" id="eliminarCompletadas">Eliminar Completadas</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

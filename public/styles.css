@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    background-color: #222;
+    color: #e0e0e0;
+}
+
+.input-group .btn {
+    padding: 10px 20px;
+    border: 1px solid #007BFF;
+    border-left: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input-group .btn:hover {
+    background-color: #0056b3;
+}
+
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.list-group-item-warning {
+    background-color: #ffc10733;
+    border-color: #ffc107;
+}
+
+.list-group-item-success {
+    background-color: #28a74533;
+    border-color: #28a745;
+}
+
+.list-group-item .tarea-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-group-item .btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.list-group-item .btn-success:hover {
+    background-color: #218838;
+}
+
+.list-group-item .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.list-group-item .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container .btn {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container .btn-danger {
+    border-color: #dc3545;
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-container .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.button-container .btn-warning {
+    border-color: #ffc107;
+    background-color: #ffc107;
+    color: black;
+}
+
+.button-container .btn-warning:hover {
+    background-color: #e0a800;
+}
