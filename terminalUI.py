@@ -35,11 +35,11 @@ class administradorTareasUI:
         if self.manager.es_Vacia():
             print("\033[95mNo hay tareas en la lista.\033[0m")
         else:
-            for task in tasks:
+            for idx, task in enumerate(tasks):
                 name = task.split(" - ")[0]
                 status = task.split(" - ")[1]
                 icon = "\033[92m✓ Completada" if status=='Completada' else '\033[91m✗ Pendiente'
-                print(f"{name} - {icon} \033[0m")
+                print(f"{idx+1}- {name} - {icon} \033[0m")
         print("\033[96m" + "\n====================================\n"+ "\033[0m")
 
     # Método para mostrar el menú de opciones
