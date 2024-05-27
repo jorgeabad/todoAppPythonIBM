@@ -1,7 +1,3 @@
----
-slug: /
----
-
 # Dcumentación del gestor de Tareas
 
 ## gestorTareas.py
