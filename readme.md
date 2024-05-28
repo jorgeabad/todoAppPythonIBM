@@ -46,8 +46,13 @@ cd path/to/repository
 ```sh
 python terminalUI.py
 ```
+```sh
+python3 terminalUI.py
+```
 
 ### Uso de la Aplicación
+
+![Aplicacion Gestion de Tareas](./pruebaGrafica/terminaTodo.gif)
 
 #### Interfaz de Usuario en Consola
 
@@ -62,7 +67,7 @@ Al iniciar la aplicación, verás un menú de opciones para gestionar tus tareas
      - No puede haber dos tareas con el mismo nombre.
 3. La aplicación añadirá la tarea a la lista y mostrará un mensaje de confirmación.
 
-![Agregar una Nueva Tarea](./pruebaGrafica/nuevaTarea.gif)
+![Agregar una Nueva Tarea](./pruebaGrafica/nueva.gif)
 
 #### Cambiar el Estado de una Tarea
 
@@ -73,7 +78,7 @@ Al iniciar la aplicación, verás un menú de opciones para gestionar tus tareas
      - Debes ingresar un número válido correspondiente a una tarea existente.
 3. La aplicación cambiará el estado de la tarea seleccionada (de `PENDIENTE` a `COMPLETADA` o viceversa) y mostrará un mensaje de confirmación.
 
-![Cambiar el Estado de una Tarea](./pruebaGrafica/cambiarEstado.gif)
+![Cambiar el Estado de una Tarea](./pruebaGrafica/estado.gif)
 
 #### Eliminar una Tarea
 
@@ -85,7 +90,7 @@ Al iniciar la aplicación, verás un menú de opciones para gestionar tus tareas
 3. La aplicación eliminará la tarea seleccionada y mostrará un mensaje de confirmación.
 
 
-![Eliminar una Tarea](./pruebaGrafica/eliminarTarea.gif)
+![Eliminar una Tarea](./pruebaGrafica/eliminar.gif)
 
 #### Eliminar las Tareas Completadas
 
@@ -95,12 +100,14 @@ Al iniciar la aplicación, verás un menú de opciones para gestionar tus tareas
      - Debe haber al menos una tarea completada.
 2. La aplicación eliminará todas las tareas completadas y mostrará un mensaje de confirmación.
 
-![Eliminar Tareas Completadas](./pruebaGrafica/eliminarCompletadas.gif)
+![Eliminar Tareas Completadas](./pruebaGrafica/eliminarCo.gif)
 
 #### Eliminar Todas las Tareas
 
 1. Selecciona la opción `5` en el menú.
 2. La aplicación eliminará todas las tareas de la lista y mostrará un mensaje de confirmación.
+
+![Eliminar Tareas Completadas](./pruebaGrafica/eliminarTodasTareas.gif)
 
 #### Ejecutar la Versión Web
 
